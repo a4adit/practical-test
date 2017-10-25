@@ -24,3 +24,19 @@ edit the config files for database configuration
 $ cd /practical_test
 $ npm start
 ```
+* Post Body
+```
+{
+  "userId": 1,
+  "items": [
+    {
+      "itemId": 2,
+      "quantity": 20
+    },
+    {
+      "itemId": 1,
+      "quantity": 10
+    }
+  ]
+}
+```
