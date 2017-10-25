@@ -72,10 +72,13 @@ storeController.getUserDiscount = function(user){
 	var discount = 0;
 	var now = moment();
 	if(user.userType === 2){
+		// employee user
 		discount = 20;
 	}else if(user.userType === 1){
+		// affiliate user
 		discount = 15;
 	}else if(now.diff(user.joinDate, 'years') >= 3){
+		// user has 3 years member
 		discount = 10;
 	}
 	return discount;
