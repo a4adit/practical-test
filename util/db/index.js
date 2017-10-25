@@ -4,4 +4,4 @@ const Categories = require('./categories')
 
 Item.belongsTo(Categories, {foreignKey: 'itemCategory'})
 
-module.exports = {User, Item}
+module.exports = {User, Item, Categories}
