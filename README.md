@@ -7,7 +7,7 @@ This README would normally document whatever steps are necessary to get your app
 * Quick summary
 This repo for practical test
 * Version
-v1.0.0.
+v1.0.0
 
 ### How do I get set up? ###
 
